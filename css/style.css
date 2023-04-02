@@ -1,0 +1,126 @@
+:root{
+    --color1:#36d0c6;
+}
+body{
+    overflow-y: scroll;
+}
+.mybgcolor{
+    background-color: var(--color1)!important;
+}
+.myborder{
+    border: 1px solid var(--color1)!important;
+}
+.navbar{
+    background-color: var(--color1)!important;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    font-size: 12px!important;
+    padding-top: 0rem!important;
+    padding-bottom: 0rem!important;
+
+}
+.navbar-brand{
+    font-size: 14px!important;
+
+}
+.navbar .active,.nav-link:hover{
+    background-color: white;
+    color: var(--color1)!important;
+}
+.nav-link{
+    color:white!important;
+    padding: 0.9rem 1.2rem!important;
+}
+.navbar-brand,.navbar-toggler {
+    margin:0.5rem 1.2rem!important;
+}
+.navbar-toggler,.navbar-toggler:hover,.navbar-toggler:focus{
+    border: none!important;
+    box-shadow: none!important;
+}
+.navbar-toggler:hover,.navbar-toggler:focus{
+    background-color: #ddd;
+}
+.navbar-toggler-icon{
+    background-image: none!important;
+    height: auto!important;
+}
+.fa-bars{
+    color:gray!important;
+}
+/*start div1*/
+#div1{
+    background-color: var(--color1)!important; 
+}
+#div1 h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 63px!important;
+}
+/*start about*/
+#about{
+    font-family: 'Lato', sans-serif;
+
+}
+#about p:first-child{
+    font-size: 19px;
+}
+#about p:last-child{
+    font-size: 15px;
+}
+[class*="fa-"]
+{
+    color: var(--color1);
+}
+
+
+/*slider*/
+.carousel-indicators [data-bs-target] {
+    
+    width: 10px!important;
+    height: 10px!important;
+    border-radius: 50%;
+    border:2px solid var(--color1)!important;
+   
+    background-color: white!important;
+   
+    opacity: 1!important; 
+  
+}
+
+.carousel-indicators .active {
+    background-color: var(--color1)!important;
+}
+
+.carousel-control-next-icon,.carousel-control-prev-icon {
+    background-image: none!important;
+} 
+
+.carousel-dark .carousel-control-next-icon, .carousel-dark .carousel-control-prev-icon{
+    filter: none!important;
+}
+.carousel-control-next, .carousel-control-prev{
+    opacity: 1!important;
+}
+/* @media screen and (max-width:767px) {
+    .subscribe{
+        width: 90%!important;
+    }
+} */
+
+
+/* start pricing*/
+
+.pricingbutton:hover{
+    background-color: white!important;
+    color: var(--color1)!important;
+}
+#pricing .card:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px!important;
+}
+
+@media screen and (max-width:767px){
+    .mycars{
+
+        font-size: 18px!important;
+    }
+}
